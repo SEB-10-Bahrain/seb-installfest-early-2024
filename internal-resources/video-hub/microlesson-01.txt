@@ -1,0 +1,10 @@
+Lecture title: [tktk Module Name]
+Subtitle: microlesson-01
+
+chapter-file-name
+- Chapter title: Name of chapter
+- Additional video requests related directly to the above chapter, for example:
+- ADD: Asset (filename-here) should be shown from 0:30 to 1:00 [tktk remove this ]
+
+another-chapter-file-name
+- Chapter title: Name of another chapter
