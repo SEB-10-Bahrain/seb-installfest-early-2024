@@ -12,11 +12,11 @@ tktk What is the takeaway of this module?
 | ------ |:----------:|:-----:| -------------- |
 | [The Installfest Journey](./the-installfest-journey/README.md)                  | -- | -- | Getting started with this guide         |
 | [macOS](./macos/README.md)                                                      | -- | -- | Installation guide for macOS            |
-| [Ubuntu](./ubuntu/README.md)                                                    | -- | -- | Installation guide for Ubuntu           |
 | [Windows 10](./windows-10/README.md)                                            | -- | -- | Installation guide for Windows 10       |
 | [Windows 11](./windows-11/README.md)                                            | -- | -- | Installation guide for Windows 11       |
+| [Ubuntu](./ubuntu/README.md)                                                    | -- | -- | Installation guide for Ubuntu           |
 | [VS code](./vs-code/README.md)                                                  | -- | -- | Download and setup VS Code              |
-| [Github Personal Access Tokens](./github-personal-access-token/README.md)       | -- | -- | Setup a personal access token in GitHub |
+| [Github: Personal Access Tokens](./github-personal-access-token/README.md)      | -- | -- | Setup a personal access token in GitHub |
 |  **Total Module**                                                               | -- | -- | --                                      |
 
 ## Additional content 
