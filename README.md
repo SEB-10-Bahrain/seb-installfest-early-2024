@@ -1,4 +1,4 @@
-# [tktk Module Name]
+# Installfest
 
 ![Hero image](./assets/tktkhero-main.png)
 
@@ -10,20 +10,19 @@ tktk What is the takeaway of this module?
 
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| -------------- |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | tktk min | [tktk Link]() | tktk topics covered |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | tktk min | [tktk Link]() | tktk topics covered |
-| [tktk Microlesson Name](./tktk-microlesson-03/README.md) | tktk min | [tktk Link]() | tktk topics covered |
-|  **Total Module**                                        | tktk min | ---           | ---                 |
+| [The Installfest Journey](./the-installfest-journey/README.md)                  | -- | -- | Getting started with this guide         |
+| [macOS](./macos/README.md)                                                      | -- | -- | Installation guide for macOS            |
+| [Ubuntu](./ubuntu/README.md)                                                    | -- | -- | Installation guide for Ubuntu           |
+| [Windows 10](./windows-10/README.md)                                            | -- | -- | Installation guide for Windows 10       |
+| [Windows 11](./windows-11/README.md)                                            | -- | -- | Installation guide for Windows 11       |
+| [VS code](./vs-code/README.md)                                                  | -- | -- | Download and setup VS Code              |
+| [Github Personal Access Tokens](./github-personal-access-token/README.md)       | -- | -- | Setup a personal access token in GitHub |
+|  **Total Module**                                                               | -- | -- | --                                      |
 
 ## Additional content 
 
 📖 [Reference Materials](./references/README.md)
 
-### 🚀 Level Up
-
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md)
 
 ## Internal resources
 

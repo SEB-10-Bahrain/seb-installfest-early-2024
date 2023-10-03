@@ -1,4 +1,4 @@
-# [tktk Module Name] - Instructor Guide
+# Installfest - Instructor Guide
 
 ![Hero image](../assets/tktkhero-secondary.png)
 

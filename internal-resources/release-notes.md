@@ -1,4 +1,4 @@
-# [tktk Module Name] - Release Notes
+# Installfest - Release Notes
 
 ![Hero image](../assets/tktkhero-secondary.png)
 

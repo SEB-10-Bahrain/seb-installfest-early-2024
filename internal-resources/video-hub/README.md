@@ -1,4 +1,4 @@
-# [tktk Module Name] - Video Hub
+# Installfest - Video Hub
 
 ![Hero image](../../assets/tktkhero-secondary.png)
 
