@@ -1,4 +1,4 @@
-# Installfest - Generating a Personal Access Token in GitHub
+# Installfest - GitHub Personal Access Token Configuration
 
 ![The GitHub Personal Access Token Configuration installfest Logo](./assets/installfest-github-pat-config-logo.png)
 

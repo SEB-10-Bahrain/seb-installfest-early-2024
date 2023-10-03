@@ -4,7 +4,7 @@
 
 ## Module overview
 
-tktk What is the takeaway of this module?
+Welcome to Installfest, your first hands-on experience in setting up a development environment as an aspiring developer! It's normal to encounter unfamiliar terms and even errors, but don't worry—this guide is designed to walk you through each step, ensuring you don't miss anything crucial. And remember, our instructional team is always here to assist you.
 
 ## Content outline
 
@@ -19,16 +19,10 @@ tktk What is the takeaway of this module?
 | [Github: Personal Access Tokens](./github-personal-access-token/README.md)      | -- | -- | Setup a personal access token in GitHub |
 |  **Total Module**                                                               | -- | -- | --                                      |
 
-## Additional content 
-
-📖 [Reference Materials](./references/README.md)
-
 
 ## Internal resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
-
-🎥 [Video Hub](./internal-resources/video-hub/README.md)
 
 🏗️ [Release Notes](./internal-resources/release-notes.md)
 

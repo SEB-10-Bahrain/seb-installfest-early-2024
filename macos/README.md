@@ -1,10 +1,6 @@
-# Installfest - macOs
+# Installfest - macOS 13 Ventura and macOS 12 Monterey
 
 ![The macOS Installfest Logo](./assets/installfest-logo-macos-ventura.png)
-
-
-# macOS 13 Ventura and macOS 12 Monterey
-
 
 ## What you need to begin
 
