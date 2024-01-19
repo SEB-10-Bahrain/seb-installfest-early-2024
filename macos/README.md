@@ -1,29 +1,24 @@
-# Installfest - macOS 13 Ventura and macOS 12 Monterey
+# ![macOS Installfest](./assets/installfest-logo-macos-sonoma.png)
 
-![The macOS Installfest Logo](./assets/installfest-logo-macos-ventura.png)
+## What you need to begin *(you must read this, do not skip this, this is important)*
 
-## What you need to begin
+- ***A device running macOS 14 Sonoma or macOS 13 Ventura.***
 
-### Important! 
-
-- ***A device running macOS 13 Ventura or macOS 12 Monterey.***
-
+  **[This Apple support article](https://support.apple.com/en-us/HT201475)** may be useful in helping you update your machine to one of these OSs.
 - At least 20GB of free hard drive space.
 - At least 8GB of RAM. 16GB of RAM or more is preferable and will improve your learning experience (particularly when screen sharing in Zoom).
 - A user account with administrative privilege to your local installation of macOS.
 - A fundamental understanding of macOS system administration and debugging.
 
-**[This Apple support article](https://support.apple.com/en-us/HT201475)** may be useful in helping you update your machine to one of these OSs.
-
 ## Troubleshooting
 
-If you run into issues during installfest, please reach out to your instructional team.
+If you run into issues during installfest, please reach out to your installfest point of contact.
 
 ## Checking your processor type
 
-Check your processor type in macOS by selecting the Apple logo in the top left of your screen and navigating to the **About This Mac** option. Macs with an Apple Silicon processor will have a chip type of Apple, as shown on the left below. Macs with an Intel processor will have a processor type of Intel, shown on the right below. These windows will look slightly different in macOS Monterey, but the same information will be present.
+Check your processor type in macOS by selecting the Apple logo in the top left of your screen and navigating to the **About This Mac** option. Macs with an Apple Silicon processor will have a chip type of Apple, as shown on the left below. Macs with an Intel processor will have a processor type of Intel, shown on the right below.
 
-![On the left, a Mac running macOS Ventura 13.5 with an Apple Silicon chip. On the right, a Mac running macOS Ventura 13.5 with an Intel chip.](./assets/apple-silicon-and-intel-chip.png)
+![On the left, a Mac running macOS Sonoma 14.1.2 with an Apple Silicon chip. On the right, a Mac running macOS Sonoma 14.1.2 with an Intel chip.](./assets/apple-silicon-and-intel-chip.png)
 
 For the purposes of this installfest, it will rarely matter which category you fall into, and when it does matter, it will be explicitly called out (like it is in the next section).
 
@@ -37,19 +32,15 @@ If you are using a device equipped with an Apple Silicon chip, the first time yo
 
 We highly recommend against using the built-in macOS window management features unless you have extensive experience using them and are already comfortable manipulating windows without a mouse. This is where Rectangle comes in.
 
-Rectangle is an open-source window management tool that offers extensive customization - no more fiddling with window position in macOS! 
+Rectangle is an open-source window management tool that offers extensive customization - no more fiddling with window position in macOS! Install Rectangle from **[here](https://rectangleapp.com/)**. Once it is installed by moving it into the **`Applications`** directory, launch it with **Spotlight** (using **`⌘ Command + Space`**).
 
- **[Install Rectangle from here](https://rectangleapp.com/)**. 
- 
- Once it is installed by moving it into the **`Applications`** directory, launch it with **Spotlight** (using **`⌘ Command + Space`**). 
-
-Because Rectangle is an application downloaded from the internet, you’ll be prompted to allow it to open after you’ve installed it. Grant this permission.
+Because Rectangle is an application downloaded from the internet, you'll be prompted to allow it to open after you've installed it. Grant this permission.
 
 You'll also be prompted to authorize Rectangle to control your window positions, as shown below. Allow this by clicking the **Open System Preferences** button in the dialog box.
 
 ![Rectangle, prompting for accessibility permission.](./assets/rectangle-authorization.png)
 
-The System Settings app will open and take you to the **Privacy & Security** pane. Turn on the toggle next to the **Rectangle** app. You’ll be prompted to allow the modification of your system settings - do so.
+The System Settings app will open and take you to the **Privacy & Security** pane. Turn on the toggle next to the **Rectangle** app. You'll be prompted to allow the modification of your system settings - do so.
 
 Below, you'll find the Privacy and Security pane after Rectangle has been given the appropriate system permissions.
 
@@ -57,23 +48,21 @@ Below, you'll find the Privacy and Security pane after Rectangle has been given 
 
 Immediately after giving Rectangle the appropriate permissions, you will be asked which default shortcuts and behavior you prefer. Opt for the **Recommended** control scheme (the Spectacle scheme conflicts with multiple programs we use in class - that's no good).
 
-Try getting familiar with Rectangle today and the rest of this week. The most useful commands for your use at first will likely be:
+Try getting familiar with Rectangle as you go through this document. The most useful commands for your use at first will likely be:
 
-- **`⌃ Ctrl + ⌥ Option + ← Left Arrow`** to move windows to the left half of the screen
-- **`⌃ Ctrl + ⌥ Option + → Right Arrow`** to move windows to the right half of the screen
-- **`⌃ Ctrl + ⌥ Option + ↩ Return`** to maximize windows
+- **`Ctrl` + `⌥ Option` + `← Left Arrow`** to move windows to the left half of the screen
+- **`Ctrl` + `⌥ Option` + `→ Right Arrow`** to move windows to the right half of the screen
+- **`Ctrl` + `⌥ Option` + `↩ Return`** to maximize windows
 
-This is only the beginning; after you’ve mastered these you can move on to the more advanced commands by exploring the app.
+Try these now!
+
+This is only the beginning; after you've mastered these you can move on to the more advanced commands by exploring the app.
 
 ## Slack
 
-We will be using Slack to communicate throughout the course.  
+We will be using Slack to communicate throughout the course. Download the app **[here](https://slack.com/downloads/)** and install it. Please do not use the in-browser version of Slack, as it makes managing notifications unnecessarily difficult and makes it easy to miss important class information - the app is the way to go.
 
-**[Download the Slack app here](https://slack.com/downloads/)**  
-
-Please do not use the in-browser version of Slack, as it makes managing notifications unnecessarily difficult and makes it easy to miss important class information - the app is the way to go.
-
-Because Slack is an application downloaded from the internet, you’ll be prompted to allow it to open after you’ve installed it. Grant this permission.
+Because Slack is an application downloaded from the internet, you'll be prompted to allow it to open after you've installed it. Grant this permission.
 
 You will also be prompted to allow access to the Downloads folder. Grant Slack this permission by selecting **OK**.
 
@@ -88,7 +77,7 @@ We also recommend downloading the Slack app for your mobile device to stay in to
 
 Scan this QR code with your iOS device to get the Slack app from the App Store.
 
-![A QR code for Slack on the iOS App Store](./assets/slack-ios-qr-code.png)
+![A QR code for Slack on the iOS App Store](installfest-assets/shared/slack-ios-qr-code.png)
 
 </details>
 
@@ -97,36 +86,31 @@ Scan this QR code with your iOS device to get the Slack app from the App Store.
 
 Scan this QR code with your Android device to get the Slack app from the Google Play Store.
 
-![A QR code for Slack on the Google Play Store](./assets/slack-android-qr-code.png)
+![A QR code for Slack on the Google Play Store](installfest-assets/shared/slack-android-qr-code.png)
 
 </details>
 
 ## Zoom
 
-We'll hold class in Zoom. If you haven't already, download the Zoom client and install it. 
+We'll hold class in Zoom. If you haven't already, download the Zoom client from **[here](https://zoom.us/download#client_4meeting)** and install it.
 
-**[Download the Zoom client](https://zoom.us/download#client_4meeting)** 
-
-
-If your device uses an Apple Silicon chip, double-check that you have installed the version for Apple Silicon chips highlighted below. This will vastly improve your computer’s performance while running Zoom and is easy to miss at first glance!
+If your device uses an Apple Silicon chip, double-check that you have installed the version for Apple Silicon chips highlighted below. This will vastly improve your computer's performance while running Zoom and is easy to miss at first glance!
 
 ![A screenshot of the Zoom download page. The download option for the Zoom client for Apple Silicon devices is highlighted.](./assets/apple-silicon-zoom-download.png)
 
-## Zoom permission setup 
-
-### *(don't skip this, even if you have already downloaded and installed Zoom)*
+## Zoom permission setup *(don't skip this, even if you have already downloaded and installed Zoom)*
 
 Ensure you complete *all* of the following steps, even if you have already downloaded and installed Zoom so that you can share your screen!
 
 The macOS Zoom client requires certain permissions to access your camera, microphone, and screen - let's enable those now.
 
-After installing it, open the Zoom application and log in to a Zoom account. If you don’t already have one, you’ll need to create an account by clicking the Sign Up link on the Sign In page. 
+After installing it, open the Zoom application and log in to a Zoom account. If you don't already have one, you'll need to create an account by clicking the Sign Up link on the Sign In page.
 
 Upon signing in, you should immediately be prompted to allow access to the microphone. Grant this permission by selecting **OK**. If a prompt didn't appear, that's ok, continue!
 
 ![Zoom, prompting for access to your Mac's microphone.](./assets/zoom-microphone-authorization.png)
 
-You should then arrive at the main Zoom window. Click on the **New Meeting** button to launch a new meeting with you as the only participant. 
+You should then arrive at the main Zoom window. Click on the **New Meeting** button to launch a new meeting with you as the only participant.
 
 ![The main Zoom window. The New Meeting button is highlighted.](./assets/zoom-new-meeting.png)
 
@@ -134,7 +118,7 @@ You'll be prompted to allow access to your Mac's camera. Do so by selecting **OK
 
 ![Zoom, prompting for access to your Mac's camera.](./assets/zoom-camera-authorization.png)
 
-Next, you’ll likely be asked to join your audio to the Zoom room. Do this. If you’re not prompted to join your audio to the Zoom room, that is ok! 
+Next, you'll likely be asked to join your audio to the Zoom room. Do this. If you're not prompted to join your audio to the Zoom room, that is ok!
 
 ![The Join audio dialog box. When prompted, select Join with Computer Audio.](./assets/zoom-join-audio.png)
 
@@ -150,7 +134,7 @@ After clicking share, you'll see the below dialog box appear. Select **Open Syst
 
 ![The dialog box asking you to allow Zoom to share your screen.](./assets/zoom-screen-share-authorization.png)
 
-You'll be taken to the **Privacy & Security** pane in the **System Settings** application, as shown below. Turn on the toggle next to the **Zoom** app. You’ll be prompted to allow the modification of your system settings - do so. Immediately after you have given Zoom the appropriate permissions, you will receive a notification saying that Zoom will not be able to record the contents of your screen until it is quit. Select the **Quit & Reopen** option. You'll also be asked to end the current Zoom meeting. Do so.
+You'll be taken to the **Privacy & Security** pane in the **System Settings** application, as shown below. Turn on the toggle next to the **Zoom** app. You'll be prompted to allow the modification of your system settings - do so. Immediately after you have given Zoom the appropriate permissions, you will receive a notification saying that Zoom will not be able to record the contents of your screen until it is quit. Select the **Quit & Reopen** option. You'll also be asked to end the current Zoom meeting. Do so.
 
 ![The Privacy & Security pane, after Zoom has been given the appropriate system permissions.](./assets/zoom-privacy-and-security.png)
 
@@ -158,25 +142,31 @@ There is no need to re-open the app; you should be good to screen share now!
 
 ## A note on copying commands
 
-When possible, ***please copy the commands from this page***. You will use most of the commands here once and never again. Typing them out will only introduce the possibility for you to make errors. Certain commands will require you to alter portions of them - this is specifically called out when they appear. There are no bonus points for doing work already done for you.
+When possible, ***please copy the commands from this page***. You will use most of the commands here once and never again. Typing them out will only introduce the possibility of you making errors. Certain commands will require you to alter portions of them - this is specifically called out when they appear. There are no bonus points for doing work already done for you.
 
 ### Copying text in code blocks
 
 To copy text from code blocks, use your mouse to hover over the code block. A **Copy** button will appear in the upper right corner. Click this, and the text held in the code block will be put on your clipboard, ready to be pasted.
 
-![A codebock shown in GitHub markdown preview. The Copy button is being pointed at by a red arrow.](./assets/gh-copy-code.png)
+![A codebock shown in GitHub markdown preview. The Copy button is being pointed at by a red arrow.](installfest-assets/shared/gh-copy-code.png)
 
-## Zsh
+## Launch the Terminal application
 
-Start by opening the Terminal application. To do so, press **`⌘ Command + Space`** to launch **Spotlight** and type **Terminal**, then select the Terminal application by pressing **`Return`** when it appears. Get used to doing this often; it's the fastest way to start applications on the Mac!
+To quickly launch applications, press **`⌘ Command + Space`** to launch Spotlight and type **`Terminal`**, then select the Terminal application by pressing **`Enter`** or **`Return`** when it appears. Get used to doing this often; it's the fastest way to start applications on the Mac!
 
 ![Launching the Terminal application using Spotlight. Get used to seeing this often; it's the fastest way to start applications on the Mac!](./assets/terminal-spotlight.png)
 
-The Terminal application should start! Now that we're here, we can check to see what the default Shell is. The Shell is a program that lets us run commands that the computer can understand in the Terminal app. We will use Zsh as the default shell. Check if Zsh is already your default shell with this command:
+The Terminal application should start!
+
+## Zsh
+
+Now that we're here, we can check to see what the default Shell is. The Shell is a program that lets us run commands that the computer can understand in the Terminal app. We will use Zsh as the default shell. Check if Zsh is already your default shell by running this command:
 
 ```bash
 echo $0
 ```
+
+To run a command, paste (or type) it into your terminal, confirm it matches what you intended, and press the **`Return`** key.
 
 If this command outputs `-zsh` as shown below, please skip to the **Xcode Command Line Tools** section below.
 
@@ -194,7 +184,7 @@ chsh -s $(which zsh)
 
 After you have done that, end your terminal session by closing the terminal window.
 
-Open a new terminal window. You may be prompted to run a configuration setup for new users. If you are, populate the **`~/.zshrc`** with the configuration recommended by the system administrator. 
+Open a new terminal window. You may be prompted to run a configuration setup for new users. If you are, populate the **`~/.zshrc`** with the configuration recommended by the system administrator.
 
 After doing that, rerun this command:
 
@@ -202,7 +192,7 @@ After doing that, rerun this command:
 echo $0
 ```
 
-It should now output `-zsh`. If it does not, reach out to your instructional team before continuing.
+It should now output `-zsh`. If it does not, reach out to your installfest point of contact before continuing.
 
 ## Xcode command line developer tools
 
@@ -218,7 +208,7 @@ You should be prompted with the below dialog box. Select **Install**. You must a
 
 This will begin a large (>1GB) download. Please wait for it to complete before moving on.
 
-Under certain circumstances, you may be prompted to download these tools again, even after you've done this process once. If you are, go ahead and allow it, but if you are continually asked to install these tools, reach out to your instructional team for a solution - fixing this may involve downloading Xcode from the Mac App Store.
+Under certain circumstances, you may be prompted to download these tools again, even after you've done this process once. If you are, go ahead and allow it, but if you are continually asked to install these tools, reach out to your installfest point of contact for a solution - fixing this may involve downloading Xcode from the Mac App Store.
 
 ## Oh My Zsh
 
@@ -228,7 +218,7 @@ We will also install Oh My Zsh - an open-source, community-driven framework for 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-Upon successfully installing Oh My Zsh, you should be greeted with the following screen: 
+Upon successfully installing Oh My Zsh, you should be greeted with the following screen:
 
 ![A successful installation of Oh My Zsh](./assets/oh-my-zsh-success.png)
 
@@ -236,25 +226,22 @@ Note that your prompt has now changed to simply be `~`. This is the desired outc
 
 ## Visual Studio Code
 
-We will use VS Code as our editor in class.  
-
-**[Download VS Code](https://code.visualstudio.com/)**
+We will use VS Code as our editor in class. Download VS Code [**here**](https://code.visualstudio.com/).
 
 ### Moving Visual Studio Code to the Applications directory is *extremely important!*
 
-***Extremely important:*** To ensure you can properly execute code, be sure that **Visual Studio Code** is in your Mac's **`Applications`** directory. ***It will not be placed in the Applications directory by default!*** Open the **Finder** application and navigate to the **`Downloads`** directory. With it open, drag the freshly downloaded **Visual Studio Code** application into the **`Applications`** directory. 
+***Extremely important:*** To ensure you can properly execute code, be sure that **Visual Studio Code** is in your Mac's **`Applications`** directory. ***It will not be placed in the Applications directory by default!*** Open the **Finder** application and navigate to the **`Downloads`** directory. With it open, drag the freshly downloaded **Visual Studio Code** application into the **`Applications`** directory.
 
 ### Install the `code` Command in your PATH
 
 Do not complete this step until you have manually moved the **Visual Studio Code** application to your `Applications` directory!
 
-
 1. Launch VS Code using spotlight (**`⌘ Command + Space`** - then start typing **Visual Studio Code** until you see the app, then press `↩ Return`). When the app launches, you'll be prompted to confirm the action since you downloaded it from the internet.
 2. Type **`⌘ Command  + Shift + P`** to open the command palette.
 3. Start typing **shell command**, and when you see the **Shell Command: Install 'code' command in PATH** command, select it! Here's an example of what this will look like:
-    
-  ![The command palette, with the Shell Command: Install 'code' command in PATH option highlighted.](./assets/vsc-code-command.png)
-    
+
+   ![The command palette, with the Shell Command: Install 'code' command in PATH option highlighted.](./assets/vsc-code-command.png)
+
 4. You may see a dialog box that reads, "Code will now prompt with 'osascript' for Administrator privileges to install the shell command." Select **OK** if you are.
 5. You may be prompted to enter your user account password to continue. Do so if you are.
 6. You'll be shown: **Shell command 'code' successfully installed in PATH.** Select **OK**.
@@ -271,7 +258,7 @@ Homebrew is a package manager we will use to install various command-line tools 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-You will be prompted to enter the user password for your device. Do so. It will not be displayed on the screen in any form as you type it - this is common for command-line password entry. After entering it, you will be prompted to allow the script to install various applications and create multiple directories, as shown in the screenshot below. Press **`↩ Return`** to allow this. 
+You will be prompted to enter the user password for your device. Do so. It will not be displayed on the screen in any form as you type it - this is common for command-line password entry. After entering it, you will be prompted to allow the script to install various applications and create multiple directories, as shown in the screenshot below. Press **`↩ Return`** to allow this.
 
 If you are prompted to install any Xcode tools, say yes.
 
@@ -289,9 +276,9 @@ In the above output, we are told to **Run these two commands in your terminal to
 
 ![Run these commands! (but not exactly, yours will be different!)](./assets/homebrew-next-steps-commands.png)
 
-If you have a similar message, you ***must*** run the commands that are displayed in your terminal (you can copy and paste them). **Do not enter the commands shown in the example above. They will not work. You must copy the commands listed in your own terminal and run them.**
+If you have a similar message, you ***must*** run the commands that are displayed in your terminal (feel free to copy and paste them!). **Do not enter the commands shown above. They will not work. You must copy the commands listed in your own terminal and run them.**
 
-If no commands are shown under the **next steps**, you may continue.
+If no commands are shown under the next steps, you may continue.
 
 ## GitHub (GH)
 
@@ -305,17 +292,17 @@ In addition to using GitHub, you'll use General Assembly's private GitHub Enterp
 
 You can sign up for an account here: **[http://git-invite.generalassemb.ly/]( http://git-invite.generalassemb.ly/)**
 
-You may use the same username for both GH & GHE accounts; however, it’s recommended that you distinguish between the two by appending **-ga** to your GH username, for example: **YourGitHubUsername-ga**
+You may use the same username for both GH & GHE accounts; however, it's recommended that you distinguish between the two by appending **-ga** to your GH username, for example: **YourGitHubUsername-ga**
 
 ### What's the difference between GH and GHE? Why does this matter?
 
-It's important to keep in mind that while they are very similar, these are two separate and distinct entities that are fully split and unaware of one another's existence.
+While they are very similar, these are two separate and distinct entities that are fully split and unaware of one another's existence.
 
-You'll do the vast majority of your contributing in public on GitHub, while your course materials, templates, labs, and more will come from GitHub Enterprise to protect General Assembly intellectual property.
+You'll make all of your public contributions on GitHub, while your course materials, templates, labs, and more will come from GitHub Enterprise to protect General Assembly intellectual property.
 
 ## Git
 
-Git is the version control software we will be using - it's an extremely popular tool among developers used to track changes to work (done in repositories) through time. We'll be covering Git much more in-depth later, 
+Git is the version control software we will be using - it's an extremely popular tool among developers used to track changes to work (done in repositories) through time. We'll be covering Git much more in-depth later,
 
 ```bash
 brew install git
@@ -323,7 +310,7 @@ brew install git
 
 ### Git Config
 
-With Git installed, we can now make some configuration changes to it so that we can use it more effectively. Complete all of the following configuration steps.
+With Git installed, we can now make some configuration changes to make it a more effective tool. Complete all of the following configuration steps.
 
 Use the below command to add a user name to Git, which will be used to identify your commits. Replace `User Name` with a name of your choice. Make sure you leave the quotes surrounding your username. Keep the name somewhat professional, or just use your name - this will be used to identify your commits on GitHub. There will not be any output from this command.
 
@@ -331,16 +318,7 @@ Use the below command to add a user name to Git, which will be used to identify 
 git config --global user.name "User Name"
 ```
 
-Next, use the below command to add an email to Git, which will be used to identify your commits.
-
-
- - Replace `user@email.com` with the email address associated with your **[https://github.com](https://github.com)** account (***not your GitHub Enterprise account at [https://git.generalassemb.ly](https://git.generalassemb.ly)***).
- 
- <br>
-
- - **The email you provide must match the email address associated with your GitHub account.** Ensure you leave the quotes surrounding your email. There will not be any output from this command. If you don’t have a **[https://github.com](https://github.com)** account yet, create one before you run this.
-
-<br>
+Next, use the below command to add an email to Git, which will be used to identify your commits. Replace `user@email.com` with the email address associated with your **[`https://github.com`](https://github.com)** account (***NOT your GitHub Enterprise account at [`https://git.generalassemb.ly`](https://git.generalassemb.ly)***). **The email you provide MUST match the email address associated with your GitHub account.** Ensure you leave the quotes surrounding your email. There will not be any output from this command. If you don't have a **[`https://github.com`](https://github.com)** account yet, create one before you run this.
 
 ```bash
 git config --global user.email "user@email.com"
@@ -358,7 +336,7 @@ Set the default Git editor to VS Code with the below command. There will not be 
 git config --global core.editor "code --wait"
 ```
 
-By default, Git will ask for a new commit message when commits are brought into a Git repo. The following command will force the default commit message for all those commits instead of prompting you to add a commit message. While this isn’t a Git command, we’re still tackling it as part of this section since it changes Git's behavior. There will not be any output from this command.
+By default, Git will ask for a new commit message when commits are brought into a Git repo. The following command will force the default commit message for all those commits instead of prompting you to add a commit message. While this isn't a Git command, we're still tackling it as part of this section since it changes Git's behavior. There will not be any output from this command.
 
 ```bash
 echo "export GIT_MERGE_AUTOEDIT=no" >> ~/.zshrc
@@ -370,10 +348,9 @@ Turn off rebasing as the default behavior when pulling from a repo with the belo
 git config --global pull.rebase false
 ```
 
-
 ### Configuring a Global Git Ignore File
 
-***A .gitignore file is vital for security by excluding sensitive data and maintaining clear repositories by omitting non-essential files***
+***Note: This step is vital to getting a job after the course. If you do not complete these steps exactly, it will look extremely bad to a future employer when they look over your GitHub repos.***
 
 Proper code, utilities, and the use of Git ignore files prevent us from uploading private secrets to the internet.
 
@@ -407,9 +384,9 @@ This may be your first time launching VS Code to work with an actual file. If so
 
 Here, you see the new **`.gitignore_global`** file open in VS Code. Note the **WSL** icon in the lower-left corner.
 
-### Here is a [.gitignore_global file for you to use](../global-git-ignore.md).
+### Here is a [.gitignore_global file for you to use](../global-git-ignore.md)
 
-Open the above page and copy the contents of the code block from the page with the copy button. Note that you will need to be logged in to you GHE account to access this page!
+Open the above page and copy the contents of the code block from the page with the copy button. Note that you must be logged in to your GHE account to access this page!
 
 Return to VS Code, then click inside the editor (the main portion of the VS Code window).
 
@@ -430,7 +407,7 @@ You can close VS Code for now.
 Use this command to install `nvm`, which we will use to install Node.js. `nvm` stands for [Node Version Manager](https://github.com/nvm-sh/nvm) and can be used to swap between different versions of Node.js quickly. We won't swap between different versions in the course, but it's still a handy tool for managing our Node.js install and can help you manage your Node.js installation post-course. Get `nvm` with this command:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
 You may see this prompt part way through the install process:
@@ -443,7 +420,7 @@ If you do, just hit **`q`** - that will exit this screen and return you to the b
 
 **Restart the Terminal application now.**
 
-After starting up the Terminal again, run this command to check the version of `nvm`: 
+After starting up the Terminal again, run this command to check the version of `nvm`:
 
 ```bash
 nvm --version 
@@ -451,15 +428,15 @@ nvm --version
 
 If you do not get a version number, check out the **Handling errors 💔** subsection below; otherwise, continue.
 
-Use nvm to install node version 18 with this command:
+Use nvm to install node version 20 with this command:
 
 ```bash
-nvm install 18
+nvm install 20
 ```
 
-![A successful install of node v18.17.0](./assets/node-install-complete.png)
+![A successful install of node v20.11.0](./assets/node-install-complete.png)
 
-A successful install of node v18.17.0.
+A successful install of node v20.11.0. Your version may be slightly different from this, but as long as it starts with 20 everything is ok!
 
 ### Handling errors 💔
 
@@ -477,7 +454,7 @@ EOF
 
 ```
 
-Restart your terminal. You should now be able to run the `nvm --version` command and get a version number in response. If you do not, alert your instructional team.
+Restart your terminal. You should now be able to run the `nvm --version` command and get a version number in response. If you do not, alert your installfest point of contact.
 
 ### NPM config
 
@@ -509,7 +486,6 @@ You'll need somewhere on your computer to put all of your work in the course - t
 mkdir ~/code
 ```
 
-## YOU DID IT!
+## OH WOW YOU DID IT!
 
 You are now set up to start developing in macOS! Be very proud of yourself; that was quite the process!
-

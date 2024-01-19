@@ -1,24 +1,25 @@
-# Installfest
+# ![Installfest - Early 2024](./assets/tktk-hero.png)
 
-![Hero image](./assets/tktkhero-main.png)
-
-## Module overview
+## About
 
 Welcome to Installfest, your first hands-on experience in setting up a development environment as an aspiring developer! It's normal to encounter unfamiliar terms and even errors, but don't worry—this guide is designed to walk you through each step, ensuring you don't miss anything crucial. And remember, our instructional team is always here to assist you.
 
-## Content outline
+## Prerequisites
 
-| Lesson | Video Time | Video | Topics Covered |
-| ------ |:----------:|:-----:| -------------- |
-| [The Installfest Journey](./the-installfest-journey/README.md)                  | -- | -- | Getting started with this guide         |
-| [macOS](./macos/README.md)                                                      | -- | -- | Installation guide for macOS            |
-| [Windows 10](./windows-10/README.md)                                            | -- | -- | Installation guide for Windows 10       |
-| [Windows 11](./windows-11/README.md)                                            | -- | -- | Installation guide for Windows 11       |
-| [Ubuntu](./ubuntu/README.md)                                                    | -- | -- | Installation guide for Ubuntu           |
-| [VS code](./vs-code/README.md)                                                  | -- | -- | Download and setup VS Code              |
-| [Github: Personal Access Tokens](./github-personal-access-token/README.md)      | -- | -- | Setup a personal access token in GitHub |
-|  **Total Module**                                                               | -- | -- | --                                      |
+- None
 
+## Content
+
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:| ------ |
+| [The Installfest Journey](./the-installfest-journey/README.md)             | -- | -- | Getting started with this guide         |
+| [macOS](./macos/README.md)                                                 | -- | -- | Installation guide for macOS            |
+| [Windows 10](./windows-10/README.md)                                       | -- | -- | Installation guide for Windows 10       |
+| [Windows 11](./windows-11/README.md)                                       | -- | -- | Installation guide for Windows 11       |
+| [Ubuntu](./ubuntu/README.md)                                               | -- | -- | Installation guide for Ubuntu           |
+| [VS code](./vs-code/README.md)                                             | -- | -- | Download and setup VS Code              |
+| [Github: Personal Access Tokens](./github-personal-access-token/README.md) | -- | -- | Setup a personal access token in GitHub |
+| **Total content**                                                          | -- | -- |                                         |
 
 ## Internal resources
 

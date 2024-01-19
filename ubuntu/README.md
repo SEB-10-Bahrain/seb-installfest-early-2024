@@ -1,10 +1,8 @@
-# Installfest - Ubuntu 22.04 Jammy Jellyfish Installfest
-
-![The Ubuntu Installfest Logo](./assets/installfest-logo-ubuntu.png)
+# ![Ubuntu Installfest](./assets/installfest-logo-ubuntu.png)
 
 Please only proceed with this guide if you cannot use Windows or macOS. While developing on Ubuntu is more than possible, many course tools we use, such as Zoom, perform better on Windows or macOS. Proceed at your own risk.
 
-# What you need to begin *(you must read this, do not skip this, this is important)*
+## What you need to begin *(you must read this, do not skip this, this is important)*
 
 - ***A device running Ubuntu 22.04 LTS (Jammy Jellyfish).***
 - At least 20GB of free hard drive space.
@@ -12,11 +10,11 @@ Please only proceed with this guide if you cannot use Windows or macOS. While de
 - A user account with administrative privilege to your local installation of Ubuntu.
 - A fundamental understanding of Linux system administration and debugging.
 
-# Troubleshooting
+## Troubleshooting
 
-If you run into issues during installfest, please reach out to your installfest point of contact. 
+If you run into issues during installfest, please reach out to your installfest point of contact.
 
-# Slack
+## Slack
 
 We will be using Slack to communicate throughout the course. Download the `.deb` app from Slack **[here](https://slack.com/downloads/)** and install it. Please do not use the in-browser version of Slack, as it makes managing notifications unnecessarily difficult and makes it easy to miss important class information - the app is the way to go.
 
@@ -27,7 +25,7 @@ We also recommend downloading the Slack app for your mobile device to stay in to
 
 Scan this QR code with your iOS device to get the Slack app from the App Store.
 
-![A QR code for Slack on the iOS App Store](./assets/slack-ios-qr-code.png)
+![A QR code for Slack on the iOS App Store](installfest-assets/shared/slack-ios-qr-code.png)
 
 </details>
 
@@ -36,35 +34,45 @@ Scan this QR code with your iOS device to get the Slack app from the App Store.
 
 Scan this QR code with your Android device to get the Slack app from the Google Play Store.
 
-![A QR code for Slack on the Google Play Store](./assets/slack-android-qr-code.png)
+![A QR code for Slack on the Google Play Store](installfest-assets/shared/slack-android-qr-code.png)
 
 </details>
 
-# Zoom
+## Zoom
 
 We'll hold class in Zoom. If you haven't already, download the Zoom client from **[here](https://zoom.us/download#client_4meeting)** and install it.
 
-# Visual Studio Code
+## Visual Studio Code
 
 We will use VS Code as our code editor in class. Download and install the `.deb` package for VS Code **[here](https://code.visualstudio.com/)**.
 
-# A note on copying commands
+## A note on copying commands
 
-When possible, ***please copy the commands from this page***. You will use most of the commands here once and never again. Typing them out will only introduce the possibility for you to make errors. Certain commands will require you to alter portions of them - this is specifically called out when they appear. There are no bonus points for doing work already done for you.
+When possible, ***please copy the commands from this page***. You will use most of the commands here once and never again. Typing them out will only introduce the possibility of you making errors. Certain commands will require you to alter portions of them - this is specifically called out when they appear. There are no bonus points for doing work already done for you.
 
-## Copying text in code blocks
+### Copying text in code blocks
 
 To copy text from code blocks, use your mouse to hover over the code block. A **Copy** button will appear in the upper right corner. Click this, and the text held in the code block will be put on your clipboard, ready to be pasted. By default, you'll need to use **`Ctrl + Shift + V`** to paste into the Ubuntu terminal.
 
-![A codebock shown in GitHub markdown preview. The Copy button is being pointed at by a red arrow.](./assets/gh-copy-code.png)
+![A codebock shown in GitHub markdown preview. The Copy button is being pointed at by a red arrow.](installfest-assets/shared/gh-copy-code.png)
 
-# Updating and upgrading packages
+## Launch the Terminal application
 
-To launch applications, press the **`Super`** key (this is the name of the **`Windows`** key on your keyboard in Linux) to launch **System Search** view and search for the application you’d like to launch. Use this now to launch the **Terminal** application. Your Linux installation will not automatically perform updates, so use this command now to update manually:
+To quickly launch applications, press the **`Super`** key (this is the name of the **`Windows`** key on your keyboard in Ubuntu) to launch System Search view and type **`Terminal`**. Select the Terminal application by pressing **`Enter`** when it appears. Get used to doing this often; it's the fastest way to start applications on Ubuntu!
+
+![Launching the Terminal application using Spotlight. Get used to seeing this often; it's the fastest way to start applications on the Mac!](./assets/terminal-system-search.png)
+
+The Terminal application should start!
+
+## Updating and upgrading packages
+
+Your Linux installation will not automatically perform updates, so run this command now to update manually:
 
 ```bash
 sudo apt update && sudo apt upgrade
 ```
+
+To run a command, paste (or type) it into your terminal, confirm it matches what you intended, and press the **`Enter`** key.
 
 You'll be prompted for your user password and to accept the changes to be made. Do so. As you type your password in, you'll notice it doesn't appear in the terminal. This is normal for password entry; keep typing it in and hit **`Enter`** when you're done.
 
@@ -72,7 +80,7 @@ You'll be prompted for your user password and to accept the changes to be made. 
 
 Above, you can see a potential output of the command to update Ubuntu packages. Your output may be different from this, but that's ok!
 
-# curl
+## curl
 
 Since you already have the terminal open, take the opportunity to install `curl`, which will let you install applications with just a URL, as you'll see us do soon. Use this command:
 
@@ -80,9 +88,9 @@ Since you already have the terminal open, take the opportunity to install `curl`
 sudo apt install curl
 ```
 
-# Zsh
+## Zsh
 
-Bash is Ubuntu's default shell (command interpreter), but Z shell is the shell of taste and class, so that's what we will use. Install it with this command, and accept the changes to be made by entering **`Y`** when prompted to continue:
+Bash is Ubuntu's default shell (command interpreter), but Z shell is more commonly used in modern systems by default, so that's what we will use. Install it with this command, and accept the changes to be made by entering **`Y`** when prompted to continue:
 
 ```bash
 sudo apt install zsh
@@ -124,13 +132,13 @@ echo $SHELL
 
 This should print **`/usr/bin/zsh`**.
 
-# GitHub (GH)
+## GitHub (GH)
 
 At its core, GitHub (commonly abbreviated as GH) is a service for hosting Git repositories (which we'll talk about soon) in the cloud, but it also enables developers to collaborate on projects much more effectively. It might help to think of it as a social media platform for you and more than 100 million developers worldwide.
 
 If you don't have an account there, create one now. Visit **[`https://github.com`](https://github.com)** and sign up. While there are paid account tiers, GitHub offers a very generous free tier that offers more than you need for the course.
 
-# GitHub Enterprise (GHE)
+## GitHub Enterprise (GHE)
 
 In addition to using GitHub, you'll use General Assembly's private GitHub Enterprise instance (commonly abbreviated as GHE) throughout the course. If you think of GitHub as a social media platform for developers worldwide, you can think of GitHub Enterprise as a social media platform just for developers at General Assembly.
 
@@ -138,13 +146,13 @@ You can sign up for an account here: **[http://git-invite.generalassemb.ly/]( ht
 
 You may use the same username for both GH & GHE accounts; however, it’s recommended that you distinguish between the two by appending **-ga** to your GH username, for example: **YourGitHubUsername-ga**
 
-## What's the difference between GH and GHE? Why does this matter?
+### What's the difference between GH and GHE? Why does this matter?
 
-It's important to keep in mind that while they are very similar, these are two separate and distinct entities that are fully split and unaware of one another's existence.
+While they are very similar, these are two separate and distinct entities that are fully split and unaware of one another's existence.
 
-You'll do the vast majority of your contributing in public on GitHub, while your course materials, templates, labs, and more will come from GitHub Enterprise to protect General Assembly intellectual property.
+You'll make all of your public contributions on GitHub, while your course materials, templates, labs, and more will come from GitHub Enterprise to protect General Assembly intellectual property.
 
-# Git
+## Git
 
 Ensure you have access to the most recent stable version of Git with this command:
 
@@ -168,13 +176,13 @@ sudo apt-get install git
 
 Enter **`Y`** when prompted to continue.
 
-## Handling errors 💔
+### Handling errors 💔
 
 After running the `sudo add-apt-repository ppa:git-core/ppa` command above, you may encounter an `HTTPError`. If you do, ensure that your system date and time are correct, then try the same command again. If this does not resolve your issue, reach out to your Installfest point of contact for assistance!
 
-## Git config
+### Git config
 
-With Git installed, we can now make some configuration changes to it so that we can use it more effectively. Complete all of the following configuration steps.
+With Git installed, we can now make some configuration changes to make it a more effective tool. Complete all of the following configuration steps.
 
 Use the below command to add a user name to Git, which will be used to identify your commits. Replace `User Name` with a name of your choice. Make sure you leave the quotes surrounding your username. Keep the name somewhat professional, or just use your name - this will be used to identify your commits on GitHub. There will not be any output from this command.
 
@@ -212,7 +220,7 @@ Finally, turn off rebasing as the default behavior when pulling from a repo with
 git config --global pull.rebase false
 ```
 
-## Configuring a `.gitignore_global` file
+### Configuring a `.gitignore_global` file
 
 ***Note: This step is vital to getting a job after the course. If you do not complete these steps exactly, it will look extremely bad to a future employer when they look over your GitHub repos.***
 
@@ -248,9 +256,9 @@ This may be your first time launching VS Code to work with an actual file. If so
 
 Here, you see the new **`.gitignore_global`** file open in VS Code.
 
-### Here is a [.gitignore_global file for you to use](../global-git-ignore.md).
+#### Here is a [.gitignore_global file for you to use](./1.1.1-gitignore-global.md)
 
-Open the above page and copy the contents of the code block from the page with the copy button. Note that you will need to be logged in to you GHE account to access this page!
+Open the above page and copy the contents of the code block from the page with the copy button. Note that you must be logged in to your GHE account to access this page!
 
 Return to VS Code, then click inside the editor (the main portion of the VS Code window).
 
@@ -262,11 +270,11 @@ Congrats, you just edited your first file in VS Code! This is a great time to tu
 
 ![Auto Save checked in the File menu, indicating that Auto Save is enabled.](./assets/vsc-auto-save-enabled.png)
 
-This should save the file, but let's be sure by manually saving it by using **Save** in the **File** Menu or pressing **`Ctrl + S`**. 
+This should save the file, but let's be sure by manually saving it by using **Save** in the **File** Menu or pressing **`Ctrl + S`**.
 
 You can close VS Code for now.
 
-# Oh My Zsh
+## Oh My Zsh
 
 We will also install Oh My Zsh - an "open-source, community-driven framework for managing your Zsh configuration." Use this command:
 
@@ -278,25 +286,25 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 Note that your prompt has now changed to simply be `~`. This is the desired outcome!
 
-# Node.js
+## Node.js
 
 Use this command to install `nvm`, which we will use to install Node.js. `nvm` stands for [Node Version Manager](https://github.com/nvm-sh/nvm) and can be used to swap between different versions of Node.js quickly. We won't swap between different versions in the course, but it's still a handy tool for managing our Node.js install and can help you manage your Node.js installation post-course. Get `nvm` with this command:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
 You may see this prompt part way through the install process:
 
 ![Error message reads: (Head detached at FETCH_HEAD). That can't be good!](./assets/nvm-head-detached.png)
 
-If you do, just hit **`q`** - that will exit this screen and return you to the below install process. If you don't get this error, that's great; continue until you see the completed installation of `nvm``:
+If you do, just hit **`q`** - that will exit this screen and return you to the below install process. If you don't get this error, that's great; continue until you see the completed installation of `nvm`:
 
 ![The completed installation of nvm.](./assets/nvm-install-complete.png)
 
 **Restart the Terminal application now.**
 
-After starting up the Terminal again, run this command to check the version of `nvm`: 
+After starting up the Terminal again, run this command to check the version of `nvm`:
 
 ```bash
 nvm --version 
@@ -304,19 +312,19 @@ nvm --version
 
 If you do not get a version number, check out the **Handling errors 💔** subsection below; otherwise, continue.
 
-Use nvm to install node version 18 with this command:
+Use nvm to install node version 20 with this command:
 
 ```bash
-nvm install 18
+nvm install 20
 ```
 
-![A successful install of node v18.17.0](./assets/node-install-complete.png)
+![A successful install of node v20.11.0](./assets/node-install-complete.png)
 
-A successful install of node v18.17.0.
+A successful install of node v20.11.0. Your version may be slightly different from this, but as long as it starts with 20 everything is ok!
 
-## Handling errors 💔
+### Handling errors 💔
 
-### command not found: nvm error
+#### command not found: nvm error
 
 Copy this command block and run it in the terminal, which will point to the nvm directory in your **`~/.zshrc`** file:
 
@@ -331,7 +339,7 @@ EOF
 
 Restart your terminal. You should now be able to run the `nvm --version` command and get a version number in response. If you do not, alert your installfest point of contact.
 
-## NPM config
+### NPM config
 
 Run this command to disable `npm` update notifications since this process is managed by `nvm`:
 
@@ -361,6 +369,6 @@ You'll need somewhere on your computer to put all of your work in the course - t
 mkdir ~/code
 ```
 
-# OH WOW YOU DID IT!
+## OH WOW YOU DID IT!
 
 You are now set up to start developing in Ubuntu! Be very proud of yourself; that was quite the process!

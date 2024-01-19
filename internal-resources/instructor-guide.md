@@ -1,6 +1,4 @@
-# Installfest - Instructor Guide
-
-![Hero image](../assets/tktkhero-secondary.png)
+# ![Instructor Guide](../assets/instructor-guide.png)
 
 ***Nothing here yet.***
 

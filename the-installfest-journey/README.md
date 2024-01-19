@@ -1,9 +1,8 @@
 # Installfest - The Installfest Journey
 
-
 ![A flowchart of the installfest journey, starting with the installfest for a particular OS, then progressing into VS Code Setup and Generating a GitHub Personal Access Token.](./assets/installfest-journey.png)
 
-Installfest can feel stressful at times - you're using applications you're possibly unfamiliar with, running a bunch of commands you don't recognize, hearing terms and vocabulary for the first time, and you may even see errors you don't know how to begin troubleshooting. 
+Installfest can feel stressful at times - you're using applications you're possibly unfamiliar with, running a bunch of commands you don't recognize, hearing terms and vocabulary for the first time, and you may even see errors you don't know how to begin troubleshooting.
 
 That's all ok though, because setting up and configuring your local development environment is your first real step in your career as a developer! As you're going through installfest and encountering technologies you're unfamiliar with, don't be afraid to research these more and seek deeper understanding. And when you encounter errors, don't forget that your instructional team is here to help too!
 
@@ -36,29 +35,32 @@ You'll also set up both GitHub and General Assembly GitHub Enterprise accounts.
 
 ### Some installfests include applications specific to one OS, noted below
 
-**macOS**
+#### macOS
+
 - Rectangle
 - Xcode command line developer tools
 - Homebrew
 
-**Windows 10/Windows 11**
+#### Windows 10/Windows 11
+
 - Windows Terminal
 - WSL (Ubuntu)
 - Visual Studio Code WSL Extension
 - PowerToys (optional)
 
-**Ubuntu**
+#### Ubuntu
+
 - curl
 
 ## 2. Setup VS Code
 
-Visual Studio Code (VS Code) is a free, open-source code editor developed by Microsoft, compatible with Windows, macOS, and Linux. 
+Visual Studio Code (VS Code) is a free, open-source code editor developed by Microsoft, compatible with Windows, macOS, and Linux.
 
-Here are some of its best features: 
+Here are some of its best features:
 
- - **Extensibility**: Rich marketplace for customizable extensions, supporting various languages and frameworks.
- - **Built-in Productivity Tools**: Features like IntelliSense and integrated Git support streamline the development process.
- - **Performance & Community**: Lightweight, fast, and backed by a strong community for quick issue resolution and support.
+- **Extensibility**: Rich marketplace for customizable extensions, supporting various languages and frameworks.
+- **Built-in Productivity Tools**: Features like IntelliSense and integrated Git support streamline the development process.
+- **Performance & Community**: Lightweight, fast, and backed by a strong community for quick issue resolution and support.
 
 ## 3. Generate a GitHub personal access token
 

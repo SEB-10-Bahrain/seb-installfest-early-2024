@@ -1,6 +1,4 @@
-# Installfest - WSL 2 for Windows 10 Installfest
-
-![The Windows 10 Installfest Logo](./assets/installfest-logo-win10.png)
+# ![Windows 10 Installfest](./assets/installfest-logo-win10.png)
 
 WSL 2 is still under very active development. If you are uncomfortable with configuring and troubleshooting Windows and Linux, this may not be a good solution for you.
 
@@ -15,10 +13,10 @@ That's fun, but what does that mean in practice? As a Windows user, you'll be ab
 ## What you need to begin *(you must read this, do not skip this, this is important)*
 
 - ***A device running Windows 10 version 22H2 (OS Build 19045 or greater).***
-    
-    To find your Windows version and build number, use **`Windows Logo Key + R`** on your keyboard, type **winver**, and select OK. You'll see a dialog window like the one below. Note the Version: 22H2.
-    
-    ![A dialog box demonstrating a Windows 10 PC eligible for use in SEI.](./assets/winver-dialog.png)
+
+  To find your Windows version and build number, use **`Windows Logo Key` + `R`** on your keyboard, type **`winver`**, and select **OK**. You'll see a dialog window like the one below. Note the Version: 22H2.
+
+  ![A dialog box demonstrating a Windows 10 PC eligible for use in SEI.](./assets/winver-dialog.png)
 - Familiarity with your system's BIOS may be required. This is extremely important as you may need to adjust BIOS settings to complete the WSL install, particularly if your machine uses an AMD processor. You cannot screen share within the BIOS environment, and your BIOS environment will be unique to the device you use. Therefore, it is on you to enter this environment and find the settings you will need to change. ***Modifying the incorrect settings in the BIOS can cause permanent hardware damage to your device, which we are not liable for. If this scares you, WSL may not be your best option.***
 - A non-Windows 10 S Version of Windows 10.
 - A user account with administrative privilege to your local installation of Windows 10.
@@ -30,9 +28,9 @@ That's fun, but what does that mean in practice? As a Windows user, you'll be ab
 
 ## Troubleshooting
 
-If you run into issues during installfest, please reach out to your instructional team. 
+If you run into issues during installfest, please reach out to your installfest point of contact.
 
-Remember, WSL 2 is under active development, with new issues being found regularly. Be prepared for there to not currently be a fix for your problem. We will make our best effort to assist you in debugging any problems, but occasionally, the solution to a problem may be that there is no current solution to the problem. 
+Remember, WSL 2 is under active development, with new issues being found regularly. There might not be fixes for some problems. We will make our best effort to assist you in debugging any problems, but occasionally, the solution to a problem may not exist.
 
 ## Slack
 
@@ -45,7 +43,7 @@ We also recommend downloading the Slack app for your mobile device to stay in to
 
 Scan this QR code with your iOS device to get the Slack app from the App Store.
 
-![A QR code for Slack on the iOS App Store](./assets/slack-ios-qr-code.png)
+![A QR code for Slack on the iOS App Store](installfest-assets/shared/slack-ios-qr-code.png)
 
 </details>
 
@@ -54,7 +52,7 @@ Scan this QR code with your iOS device to get the Slack app from the App Store.
 
 Scan this QR code with your Android device to get the Slack app from the Google Play Store.
 
-![A QR code for Slack on the Google Play Store](./assets/slack-android-qr-code.png)
+![A QR code for Slack on the Google Play Store](installfest-assets/shared/slack-android-qr-code.png)
 
 </details>
 
@@ -84,13 +82,13 @@ Note the shield in the title bar indicating that PowerShell is running with elev
 
 ## A note on copying commands
 
-When possible, ***please copy the commands from this page***. You will use most of the commands here once and never again. Typing them out will only introduce the possibility for you to make errors. Certain commands will require you to alter portions of them - this is specifically called out when they appear. There are no bonus points for doing work already done for you.
+When possible, ***please copy the commands from this page***. You will use most of the commands here once and never again. Typing them out will only introduce the possibility of you making errors. Certain commands will require you to alter portions of them - this is specifically called out when they appear. There are no bonus points for doing work already done for you.
 
 ### Copying text in code blocks
 
 To copy text from code blocks, use your mouse to hover over the code block. A **Copy** button will appear in the upper right corner. Click this, and the text held in the code block will be put on your clipboard, ready to be pasted.
 
-![A codebock shown in GitHub markdown preview. The Copy button is being pointed at by a red arrow.](./assets/gh-copy-code.png)
+![A codebock shown in GitHub markdown preview. The Copy button is being pointed at by a red arrow.](installfest-assets/shared/gh-copy-code.png)
 
 ## Install WSL
 
@@ -99,6 +97,8 @@ Use this command to install Ubuntu in WSL2. You may be asked to allow apps to ha
 ```powershell
 wsl --install -d Ubuntu
 ```
+
+To run a command, paste (or type) it into your terminal, confirm it matches what you intended, and press the **`Enter`** key.
 
 ![The expected output shown in PowerShell after running the above command.](./assets/powershell-wsl-install.png)
 
@@ -118,14 +118,14 @@ Upon restarting, the Ubuntu Installer will launch automatically (as shown below)
 
 You may see this message after your machine restarts:
 
-```
+```plaintext
 Please enable the Virtual Machine Platform Windows feature and 
 ensure virtualization is enabled in the BIOS.
 ```
 
 Or this message:
 
-```
+```plaintext
 The virtual machine could not be started because a required feature is not installed.
 ```
 
@@ -135,7 +135,7 @@ If either of these errors occurs, run the command below in PowerShell with Admin
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
-and restart your machine. 
+and restart your machine.
 
 ***If the error persists after restarting, you likely need to enter your BIOS and enable Intel Virtualization Technology (Intel VT) or AMD Virtualization (AMD-V) technology to continue. This error is most common with AMD processors.***
 
@@ -145,7 +145,7 @@ Launch the Ubuntu application with a search for **Ubuntu** in the Start menu.
 
 #### I do not have any of the above errors
 
-Reach out to your instructional team for further guidance.
+Reach out to your installfest point of contact for further guidance.
 
 ## Creating a user account
 
@@ -194,7 +194,7 @@ After that process is complete, it’s time to ensure you're upgraded to the new
 
 ## Upgrading Ubuntu
 
-Close any open Windows Terminal sessions and re-launch the Windows Terminal application. Run this command to start the update: 
+Close any open Windows Terminal sessions and re-launch the Windows Terminal application. Run this command to start the update:
 
 ```bash
 sudo do-release-upgrade
@@ -210,7 +210,7 @@ There are three possible outcomes from this command:
 
 You may see this printed to the terminal after you run `sudo do-release-upgrade`:
 
-```
+```plaintext
 You have not rebooted after updating a package which requires a reboot. 
 Please reboot before upgrading.
 ```
@@ -219,7 +219,7 @@ If you see this message, restart your computer and retry the **Upgrading Ubuntu*
 
 ## Zsh
 
-Bash is Ubuntu's default shell (command interpreter), but Z shell is the shell of taste and class, so that's what we will use. Install it with this command, and accept the changes to be made by entering **`Y`** when prompted to continue:
+Bash is Ubuntu's default shell (command interpreter), but Z shell is more commonly used in modern systems by default, so that's what we will use. Install it with this command, and accept the changes to be made by entering **`Y`** when prompted to continue:
 
 ```bash
 sudo apt install zsh
@@ -281,7 +281,11 @@ Install Visual Studio Code from **[the Visual Studio Code site](https://code.vis
 
 ### Install the WSL extension
 
-Once VS Code is installed, continue by installing the **[WSL extension](vscode:extension/ms-vscode-remote.remote-wsl)** in Visual Studio Code. If your browser has any security prompts asking if you want to use the link to open VS Code, accept them. On the page for the extension, click the **Install** button as highlighted below.
+Once VS Code is installed, continue by going to the **[WSL extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)** page in your browser. Click the Install button as outlined in red below to open the extension marketplace in VS Code. If your browser has any security prompts asking if you want to use the link to open VS Code, accept them.
+
+![The page for the WSL extension in the VS Code Extension Marketplace shown in the Chrome browser.](./assets/vsc-wsl-extension-browser.png)
+
+On the page for the extension in VS Code, click the **Install** button as outlined in red below.
 
 ![The page for the WSL extension in the VS Code Extension Marketplace.](./assets/vsc-wsl-extension-install.png)
 
@@ -313,9 +317,9 @@ You may use the same username for both GH & GHE accounts; however, it’s recomm
 
 ### What's the difference between GH and GHE? Why does this matter?
 
-It's important to keep in mind that while they are very similar, these are two separate and distinct entities that are fully split and unaware of one another's existence.
+While they are very similar, these are two separate and distinct entities that are fully split and unaware of one another's existence.
 
-You'll do the vast majority of your contributing in public on GitHub, while your course materials, templates, labs, and more will come from GitHub Enterprise to protect General Assembly intellectual property.
+You'll make all of your public contributions on GitHub, while your course materials, templates, labs, and more will come from GitHub Enterprise to protect General Assembly intellectual property.
 
 ## Git in Windows 10
 
@@ -375,15 +379,15 @@ and then finally, use this command to install Git on your machine:
 sudo apt-get install git
 ```
 
-Enter **`Y`** when prompted to continue. 
+Enter **`Y`** when prompted to continue.
 
 ### Handling errors 💔
 
-After running the `sudo add-apt-repository ppa:git-core/ppa` command above, you may encounter an `HTTPError`. If you do, ensure that your system date and time are correct, then try the same command again. If this does not resolve your issue, reach out to your instructional team for assistance!
+After running the `sudo add-apt-repository ppa:git-core/ppa` command above, you may encounter an `HTTPError`. If you do, ensure that your system date and time are correct, then try the same command again. If this does not resolve your issue, reach out to your Installfest point of contact for assistance!
 
 ## Git config
 
-With Git installed, we can now make some configuration changes to it so that we can use it more effectively. Complete all of the following configuration steps.
+With Git installed, we can now make some configuration changes to make it a more effective tool. Complete all of the following configuration steps.
 
 Use the below command to add a user name to Git, which will be used to identify your commits. Replace `User Name` with a name of your choice. Make sure you leave the quotes surrounding your username. Keep the name somewhat professional, or just use your name - this will be used to identify your commits on GitHub. There will not be any output from this command.
 
@@ -429,9 +433,9 @@ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git
 
 Now, any Git operation you perform within Ubuntu will use the Git Credential Manager managed by the Windows installation of Git. There will not be any output from this command.
 
-You may have noticed from the command above all the files you have stored in Windows are available on the Ubuntu side in **`/mnt/c`**, but accessing them comes at a significant performance cost. Therefore, the code you write will be stored in the Ubuntu storage space, and we'll only interact with Windows files and apps when necessary. As an additional note, the Ubuntu storage space can be accessed from Windows at: **`\\wsl$\Ubuntu\`**.
+You may have noticed from the command above all the files you have stored in Windows are available on the Ubuntu side in **`/mnt/c`**, but accessing them comes at a significant performance cost. Therefore, the code you write will be stored in the Ubuntu storage space, and we'll only interact with Windows files and apps when necessary. Additionally, the Ubuntu storage space can be accessed from Windows at **`\\wsl$\Ubuntu\`**.
 
-You shouldn't have to bring files from Windows to Ubuntu or from Ubuntu to Windows often, but the above information may be useful to you in certain circumstances. 
+You shouldn't have to bring files from Windows to Ubuntu or Ubuntu to Windows often, but the above information may be useful to you in certain circumstances.
 
 ### Configuring a `.gitignore_global` file
 
@@ -471,9 +475,9 @@ This may be your first time launching VS Code to work with an actual file. If so
 
 Here, you see the new **`.gitignore_global`** file open in VS Code. Note the **WSL** icon in the lower-left corner.
 
-#### Here is a [.gitignore_global file for you to use](../global-git-ignore.md).
+### Here is a [.gitignore_global file for you to use](./1.1.1-gitignore-global.md)
 
-Open the above page and copy the contents of the code block from the page with the copy button. Note that you will need to be logged in to you GHE account to access this page!
+Open the above page and copy the contents of the code block from the page with the copy button. Note that you must be logged in to your GHE account to access this page!
 
 Return to VS Code, then click inside the editor (the main portion of the VS Code window).
 
@@ -494,7 +498,7 @@ You can close VS Code for now.
 Use this command to install `nvm`, which we will use to install Node.js. `nvm` stands for [Node Version Manager](https://github.com/nvm-sh/nvm) and can be used to swap between different versions of Node.js quickly. We won't swap between different versions in the course, but it's still a handy tool for managing our Node.js install and can help you manage your Node.js installation post-course. Get `nvm` with this command:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
 You may see this prompt part way through the install process:
@@ -507,7 +511,7 @@ If you do, just hit **`q`** - that will exit this screen and return you to the b
 
 **Restart the Windows Terminal application now.**
 
-After starting up the Windows Terminal again, run this command to check the version of `nvm`: 
+After starting up the Windows Terminal again, run this command to check the version of `nvm`:
 
 ```bash
 nvm --version 
@@ -515,21 +519,21 @@ nvm --version
 
 If you do not get a version number, check out the **Handling errors 💔** subsection below; otherwise, continue.
 
-Use nvm to install node version 18 with this command:
+Use nvm to install node version 20 with this command:
 
 ```bash
-nvm install 18
+nvm install 20
 ```
 
-![A successful install of node v18.17.0](./assets/node-install-complete.png)
+![A successful install of node v20.11.0](./assets/node-install-complete.png)
 
-A successful install of node v18.17.0.
+A successful install of node v20.11.0. Your version may be slightly different from this, but as long as it starts with 20 everything is ok!
 
 ### Handling errors 💔
 
 #### command not found: nvm error
 
-Copy this command block and run it in the terminal, which will point to the nvm directory in your **`~/.zshrc`** file: 
+Copy this command block and run it in the terminal, which will point to the nvm directory in your **`~/.zshrc`** file:
 
 ```bash
 cat << EOF >> ~/.zshrc
@@ -540,7 +544,7 @@ export NVM_DIR="$HOME/.nvm"
 EOF
 ```
 
-Restart your terminal. You should now be able to run the `nvm --version` command and get a version number in response. If you do not, alert your instructional team.
+Restart your terminal. You should now be able to run the `nvm --version` command and get a version number in response. If you do not, alert your installfest point of contact.
 
 ### NPM config
 
@@ -552,7 +556,7 @@ npm config set update-notifier false
 
 There will be no output after running this command.
 
-### nodemon
+## nodemon
 
 With Node.js installed, install `nodemon` globally with this command:
 
@@ -564,7 +568,7 @@ If nodemon has successfully installed, this should be the output:
 
 ![nodemon successfully installed!](./assets/nodemon-install-complete.png)
 
-### `~/code` directory
+## `~/code` directory
 
 You'll need somewhere on your computer to put all of your work in the course - that's what the `~/code` directory will be for you! All course content assumes you will have this directory, so let's create it now with this command in your terminal:
 
@@ -582,7 +586,7 @@ From Microsoft:
 
 > Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. Inspired by the Windows 95 era PowerToys project, this reboot provides power users with ways to squeeze more efficiency out of the Windows 10 shell and customize it for individual workflows.
 
-Among its many useful tools, PowerToys includes one of the best window managers for Windows: FancyZones, which allows you to customize window layouts and get the best setup just for you. 
+Among its many useful tools, PowerToys includes one of the best window managers for Windows: FancyZones, which allows you to customize window layouts and get the best setup just for you.
 
 Get PowerToys **[here](https://github.com/microsoft/PowerToys/releases/download/v0.71.0/PowerToysSetup-0.71.0-x64.exe)**.
 
