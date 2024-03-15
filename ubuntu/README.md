@@ -52,9 +52,9 @@ When possible, ***please copy the commands from this page***. You will use most 
 
 ### Copying text in code blocks
 
-To copy text from code blocks, use your mouse to hover over the code block. A **Copy** button will appear in the upper right corner. Click this, and the text held in the code block will be put on your clipboard, ready to be pasted. By default, you'll need to use **`Ctrl + Shift + V`** to paste into the Ubuntu terminal.
+To copy text from code blocks, use your mouse to hover over the code block. A **Copy** button will appear in the upper right corner. Click this, and the text held in the code block will be put on your clipboard, ready to be pasted. By default, you'll need to use **`Ctrl` + `Shift` + `V`** to paste into the Ubuntu terminal.
 
-![A codebock shown in GitHub markdown preview. The Copy button is being pointed at by a red arrow.](installfest-assets/shared/gh-copy-code.png)
+![A codebock shown in GitHub pages. The Copy button is being pointed at by a red arrow.](./assets/code-copy.png)
 
 ## Launch the Terminal application
 

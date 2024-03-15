@@ -148,7 +148,7 @@ When possible, ***please copy the commands from this page***. You will use most 
 
 To copy text from code blocks, use your mouse to hover over the code block. A **Copy** button will appear in the upper right corner. Click this, and the text held in the code block will be put on your clipboard, ready to be pasted.
 
-![A codebock shown in GitHub markdown preview. The Copy button is being pointed at by a red arrow.](installfest-assets/shared/gh-copy-code.png)
+![A codebock shown in GitHub pages. The Copy button is being pointed at by a red arrow.](./assets/code-copy.png)
 
 ## Launch the Terminal application
 
@@ -171,8 +171,6 @@ To run a command, paste (or type) it into your terminal, confirm it matches what
 If this command outputs `-zsh` as shown below, please skip to the **Xcode Command Line Tools** section below.
 
 ![Screen Shot 2022-08-17 at 11.31.48 AM.png](./assets/zsh.png)
-
-</aside>
 
 ### If Zsh is not your Mac's default shell
 
