@@ -1,4 +1,4 @@
-# ![Installfest - Early 2024 - Ubuntu Installfest](./assets/installfest-logo-ubuntu.png)
+# ![Installfest - Early 2024 - Ubuntu Installfest](./assets/hero.png)
 
 Please only proceed with this guide if you cannot use Windows or macOS. While developing on Ubuntu is more than possible, many course tools we use, such as Zoom, perform better on Windows or macOS. Proceed at your own risk.
 

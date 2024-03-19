@@ -1,4 +1,4 @@
-# ![Installfest - Early 2024 - Windows 11 Installfest](./assets/installfest-logo-win11.png)
+# ![Installfest - Early 2024 - Windows 11 Installfest](./assets/hero.png)
 
 WSL 2 is still under very active development. If you are uncomfortable configuring and troubleshooting Windows and Linux, this may not be a good solution for you.
 
