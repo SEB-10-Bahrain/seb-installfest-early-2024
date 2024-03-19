@@ -1,4 +1,4 @@
-# Installfest - The Installfest Journey
+# ![Installfest - Early 2024 - Installfest - Early 2024 - The Installfest Journey](./assets/hero.png)
 
 ![A flowchart of the installfest journey, starting with the installfest for a particular OS, then progressing into VS Code Setup and Generating a GitHub Personal Access Token.](./assets/installfest-journey.png)
 

@@ -1,4 +1,4 @@
-# ![GitHub Personal Access Token Configuration](./assets/installfest-github-pat-config-logo.png)
+# ![Installfest - Early 2024 - GitHub Personal Access Token Configuration](./assets/installfest-github-pat-config-logo.png)
 
 GitHub deprecated the use of password authentication via the command line in 2021, as detailed in **[this GitHub blog post](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)**. This means we must authenticate using GitHub's preferred authentication method: personal access tokens.
 
