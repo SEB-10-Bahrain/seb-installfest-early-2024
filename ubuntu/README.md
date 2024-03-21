@@ -256,7 +256,7 @@ This may be your first time launching VS Code to work with an actual file. If so
 
 Here, you see the new **`.gitignore_global`** file open in VS Code.
 
-#### Here is a [.gitignore_global file for you to use](./1.1.1-gitignore-global.md)
+### Here is a [.gitignore_global file for you to use](../global-git-ignore.md)
 
 Open the above page and copy the contents of the code block from the page with the copy button. Note that you must be logged in to your GHE account to access this page!
 

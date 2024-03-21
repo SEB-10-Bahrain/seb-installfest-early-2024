@@ -170,7 +170,7 @@ To run a command, paste (or type) it into your terminal, confirm it matches what
 
 If this command outputs `-zsh` as shown below, please skip to the **Xcode Command Line Tools** section below.
 
-![Screen Shot 2022-08-17 at 11.31.48 AM.png](./assets/zsh.png)
+![-zsh is shown as teh output of this command.](./assets/zsh.png)
 
 ### If Zsh is not your Mac's default shell
 
