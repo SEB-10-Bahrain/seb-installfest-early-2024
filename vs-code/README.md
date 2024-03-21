@@ -1,4 +1,4 @@
-# ![Visual Studio Code Configuration](./assets/installfest-vsc-config-logo.png)
+# ![Installfest - Early 2024 - Visual Studio Code Configuration](./assets/hero.png)
 
 If you’ve arrived here, you’ve likely just completed your installfest and need to set up VS Code. Congrats! But what is VS Code? Glad you asked!
 

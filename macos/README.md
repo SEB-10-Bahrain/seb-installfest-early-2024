@@ -1,4 +1,4 @@
-# ![macOS Installfest](./assets/installfest-logo-macos-sonoma.png)
+# ![Installfest - Early 2024 - Installfest - Early 2024 - macOS Installfest](./assets/hero.png)
 
 ## What you need to begin *(you must read this, do not skip this, this is important)*
 

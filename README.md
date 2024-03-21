@@ -1,4 +1,4 @@
-# ![Installfest - Early 2024](./assets/tktk-hero.png)
+# ![Installfest - Early 2024](./assets/hero.png)
 
 ## About
 
