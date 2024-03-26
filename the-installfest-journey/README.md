@@ -10,7 +10,7 @@ To help you through this process, we've included this handy guide walking you th
 
 ## 1. Install software for your OS
 
-Most installfest content is found within these OS-specific guides that will walk you through a setup process tailored to your OS. Make sure you only follow one path!
+Most installfest content is found within these OS-specific guides that will walk you through a setup process tailored to your OS. ***Make sure you only follow one path! Do not open the installfest documents for any OS other than the one you want to set up.*** 
 
 - macOS
 - Windows 10
