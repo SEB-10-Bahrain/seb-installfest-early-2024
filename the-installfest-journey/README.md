@@ -22,7 +22,6 @@ Most installfest content is found within these OS-specific guides that will walk
 The installfest resources in this module will guide you through installing or configuring the following applications, **regardless of your operating system**:
 
 - Slack
-- Zoom
 - Zsh
 - Oh My Zsh
 - Visual Studio Code
