@@ -22,7 +22,7 @@ That's fun, but what does that mean in practice? As a Windows user, you'll be ab
 - A user account with administrative privilege to your local installation of Windows 10.
 - A Microsoft Account with access to the Microsoft Store application. All requirements are free, but some are only available from the Microsoft Store.
 - At least 20GB of free hard drive space.
-- At least 8GB of RAM. 16GB of RAM or more is preferable and will improve your learning experience (particularly when screen sharing in Zoom).
+- At least 8GB of RAM. 16GB of RAM or more is preferable and will improve your learning experience.
 - A modern processor capable of running virtual environments - specifically processors with Intel Virtualization Technology (Intel VT) or AMD Virtualization (AMD-V) technology.
 - A fundamental understanding of Windows and Linux system administration and debugging.
 
@@ -55,10 +55,6 @@ Scan this QR code with your Android device to get the Slack app from the Google 
 ![A QR code for Slack on the Google Play Store](installfest-assets/shared/slack-android-qr-code.png)
 
 </details>
-
-## Zoom
-
-We'll hold class in Zoom. If you haven't already, download the Zoom client from **[here](https://zoom.us/download#client_4meeting)** and install it.
 
 ## Install Windows Terminal from the Microsoft Store
 
