@@ -90,56 +90,6 @@ Scan this QR code with your Android device to get the Slack app from the Google 
 
 </details>
 
-## Zoom
-
-We'll hold class in Zoom. If you haven't already, download the Zoom client from **[here](https://zoom.us/download#client_4meeting)** and install it.
-
-If your device uses an Apple Silicon chip, double-check that you have installed the version for Apple Silicon chips highlighted below. This will vastly improve your computer's performance while running Zoom and is easy to miss at first glance!
-
-![A screenshot of the Zoom download page. The download option for the Zoom client for Apple Silicon devices is highlighted.](./assets/apple-silicon-zoom-download.png)
-
-## Zoom permission setup *(don't skip this, even if you have already downloaded and installed Zoom)*
-
-Ensure you complete *all* of the following steps, even if you have already downloaded and installed Zoom so that you can share your screen!
-
-The macOS Zoom client requires certain permissions to access your camera, microphone, and screen - let's enable those now.
-
-After installing it, open the Zoom application and log in to a Zoom account. If you don't already have one, you'll need to create an account by clicking the Sign Up link on the Sign In page.
-
-Upon signing in, you should immediately be prompted to allow access to the microphone. Grant this permission by selecting **OK**. If a prompt didn't appear, that's ok, continue!
-
-![Zoom, prompting for access to your Mac's microphone.](./assets/zoom-microphone-authorization.png)
-
-You should then arrive at the main Zoom window. Click on the **New Meeting** button to launch a new meeting with you as the only participant.
-
-![The main Zoom window. The New Meeting button is highlighted.](./assets/zoom-new-meeting.png)
-
-You'll be prompted to allow access to your Mac's camera. Do so by selecting **OK**. If a prompt didn't appear, that's ok, continue!
-
-![Zoom, prompting for access to your Mac's camera.](./assets/zoom-camera-authorization.png)
-
-Next, you'll likely be asked to join your audio to the Zoom room. Do this. If you're not prompted to join your audio to the Zoom room, that is ok!
-
-![The Join audio dialog box. When prompted, select Join with Computer Audio.](./assets/zoom-join-audio.png)
-
-Now, share your screen by clicking the green **Share Screen** button at the bottom of the window.
-
-![The Join audio dialog box. When prompted, select Join with Computer Audio.](./assets/zoom-share-screen.png)
-
-You'll be shown a screen that looks similar to the one below. Select **Desktop 1** and click the **Share** button in the bottom right of the window.
-
-![The Screen Share pane. Desktop 1 is selected and the Share button is highlighted.](./assets/zoom-screen-share-options.png)
-
-After clicking share, you'll see the below dialog box appear. Select **Open System Preferences**.
-
-![The dialog box asking you to allow Zoom to share your screen.](./assets/zoom-screen-share-authorization.png)
-
-You'll be taken to the **Privacy & Security** pane in the **System Settings** application, as shown below. Turn on the toggle next to the **Zoom** app. You'll be prompted to allow the modification of your system settings - do so. Immediately after you have given Zoom the appropriate permissions, you will receive a notification saying that Zoom will not be able to record the contents of your screen until it is quit. Select the **Quit & Reopen** option. You'll also be asked to end the current Zoom meeting. Do so.
-
-![The Privacy & Security pane, after Zoom has been given the appropriate system permissions.](./assets/zoom-privacy-and-security.png)
-
-There is no need to re-open the app; you should be good to screen share now!
-
 ## A note on copying commands
 
 When possible, ***please copy the commands from this page***. You will use most of the commands here once and never again. Typing them out will only introduce the possibility of you making errors. Certain commands will require you to alter portions of them - this is specifically called out when they appear. There are no bonus points for doing work already done for you.
