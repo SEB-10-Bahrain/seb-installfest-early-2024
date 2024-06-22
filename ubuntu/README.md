@@ -1,12 +1,12 @@
 # ![Installfest - Early 2024 - Ubuntu Installfest](./assets/hero.png)
 
-Please only proceed with this guide if you cannot use Windows or macOS. While developing on Ubuntu is more than possible, many course tools we use, such as Zoom, perform better on Windows or macOS. Proceed at your own risk.
+Please only proceed with this guide if you cannot use Windows or macOS. While developing on Ubuntu is more than possible, many course tools we use, perform better on Windows or macOS. Proceed at your own risk.
 
 ## What you need to begin *(you must read this, do not skip this, this is important)*
 
 - ***A device running Ubuntu 22.04 LTS (Jammy Jellyfish).***
 - At least 20GB of free hard drive space.
-- At least 8GB of RAM. 16GB of RAM or more is preferable and will improve your learning experience (particularly when screen sharing in Zoom).
+- At least 8GB of RAM. 16GB of RAM or more is preferable and will improve your learning experience.
 - A user account with administrative privilege to your local installation of Ubuntu.
 - A fundamental understanding of Linux system administration and debugging.
 
@@ -37,10 +37,6 @@ Scan this QR code with your Android device to get the Slack app from the Google 
 ![A QR code for Slack on the Google Play Store](installfest-assets/shared/slack-android-qr-code.png)
 
 </details>
-
-## Zoom
-
-We'll hold class in Zoom. If you haven't already, download the Zoom client from **[here](https://zoom.us/download#client_4meeting)** and install it.
 
 ## Visual Studio Code
 
