@@ -6,7 +6,7 @@
 
   **[This Apple support article](https://support.apple.com/en-us/HT201475)** may be useful in helping you update your machine to one of these OSs.
 - At least 20GB of free hard drive space.
-- At least 8GB of RAM. 16GB of RAM or more is preferable and will improve your learning experience (particularly when screen sharing in Zoom).
+- At least 8GB of RAM. 16GB of RAM or more is preferable and will improve your learning experience.
 - A user account with administrative privilege to your local installation of macOS.
 - A fundamental understanding of macOS system administration and debugging.
 
